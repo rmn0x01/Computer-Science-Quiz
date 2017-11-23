@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">IAK Final Project</string>
     <string name="start">Start Game</string>
-    <string name="game_name">Computer Science Game</string>
+    <string name="game_name">Computer Science Quiz</string>
     <string name="pick">Choose Level</string>
     <string-array name="levels">
         <item>Level 1</item>
