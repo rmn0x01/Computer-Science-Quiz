@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/chooseLevelParent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.rmn.iakfinalproject.ChooseLevel">
+
+    <TextView
+        android:id="@+id/chooseLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Choose Level"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/chooseLevel"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btnlevel1"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:text="Level 1"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btnlevel2"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:text="Level 2"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btnlevel3"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:text="Level 3"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btnlevel4"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:text="Level 4"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btnlevel5"
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:text="Level 5"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
